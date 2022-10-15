@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+    <head>
+    	<meta charset="utf-8">
+    	<title>Jona Peh | Developer </title>
+    	<meta name="description" content="Jona Peh's developer profile">
+    	<meta name="author" content="Jona Peh">
+        <link rel="stylesheet" href ="styles.css">
+	</head>
+    <body>
+        <header>
+        <div>
+            <img src="images/jona peh dev logo.png"alt="Jona Peh Logo">          
+
+            <h1 id="header-text"><a href="index.html">Meet Jona</a></h1>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contact-page.html">Contact</a>
+                <a href="">Projects</a>
+            </nav>
+        </div>
+        </header>
+    <main>
+        <section id="hero">
+        <div>
+            <h1>Hello , I'm Jona Peh </h1>
+        </div>
+        <div class="img-hover-zoom">
+            <img  src="images/profile head laptop.png" alt="Carton version of Jona with laptop.">
+    </section>
+        <div class="img-hover-zoom">
+            <img  src="images/profile head laptop.png" alt="Carton version of Jona with laptop.">
+        <div> 
+            <p>!</p>
+        </div>
+    </main>
+        <footer>
+            © 2022 Jona Peh. All rights reserved. 
+        </footer>
+     </body>
+</html>

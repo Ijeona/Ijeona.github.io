@@ -132,3 +132,27 @@ footer{
 
 
 
+<<<<<<< Updated upstream
+=======
+  /* Hover Elements  */
+    /*  Home Page Rollover image styles  */
+      /* [1] The container */
+      .img-hover-zoom {
+        height: 50%; /* [1.1] Set it as per your need */
+        width: 50%;
+        overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+      }
+      /* [2] Transition property for smooth transformation of images */
+      .img-hover-zoom img {
+        transition: transform .5s ease;
+      }
+      /* [3] Transforming the image when container gets hovered */
+      .img-hover-zoom:hover img {
+        transform: scale(1.5);
+      }
+  
+
+/* Form Page CSS */
+
+/* Media queries */
+>>>>>>> Stashed changes
