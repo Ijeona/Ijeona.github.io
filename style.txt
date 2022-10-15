@@ -132,8 +132,7 @@ footer{
 
 
 
-<<<<<<< Updated upstream
-=======
+
   /* Hover Elements  */
     /*  Home Page Rollover image styles  */
       /* [1] The container */
@@ -154,5 +153,6 @@ footer{
 
 /* Form Page CSS */
 
+
 /* Media queries */
->>>>>>> Stashed changes
+
