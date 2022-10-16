@@ -167,9 +167,6 @@ button {
 	font-size: 0.8rem;
 }
 
-.column button {
-	background-color: transparent;
-}
 
 .selected {
 	font-weight: bold;
