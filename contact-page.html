@@ -1,26 +1,68 @@
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-    	<meta charset="utf-8">
-    	<title>Contact Jona Peh | Developer </title>
-    	<meta name="description" content="Contact Jona">
-    	<meta name="author" content="Jona Peh">
-        <link rel="stylesheet" href ="styles.css">
-	</head>
-<form action="https://formspree.io/your-formspree-code" method="post">
-    <!-- your form here --> 
-    <div class="form-item">        
-        <label for="name">Name</label>        
-        <input type="text" id="name" name="name">    
-    </div>
-    <div class="form-item">        
-        <label for="mail">Email</label>        
-        <input type="email" id="mail" name="email">    
-    </div>
-    <div class="form-item">        
-        <label for="message">Message</label>        
-        <textarea id="message" name="message"></textarea>    
-    </div>
-    <div class="form-item">        
-        <button type="submit">Send!</button>    
-    </div>
-</form>
+<head>
+    <meta charset="UTF-8">
+    <title>Jona Peh | Developer </title>
+    <meta name="description" content="Jona Peh's Contact">
+    <meta name="author" content="Jona Peh">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    
+    <!--logo on tab -->
+    <link rel="icon" type="image/x-icon" href="images/jona peh browser logo.png">
+    <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+    <nav class="nav-header" role="navigation pane">
+        <!-- <div>
+        <a href="./index.html"><img class="nav-header__logo" src="images/jona peh header logo.png" alt="jona peh dev logo"></a>
+        </div> -->
+        <!-- Dropdown menu -->
+        <section class="dropdown">
+            <button class="dropbtn"> MENU 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="contact-page.html">Contact</a>
+              <a href="#">Projects</a>
+              <a href="index.html">About <menu></menu></a>
+            </section>  
+    </nav>
+
+    <form action="https://formspree.io/f/xknezdvo"method="POST">
+     <section class="contact-content">
+      <div class="contact-container">
+                <div class="contact">
+                    <h1 class="page-header">Contact Jona</h1>
+                    <div class="contact-p">
+                        <p>⌄ Got some advice or any questions? ⌄</p>
+                    </div>
+                    <div class="form-container">
+                        <form id="contact-form" name="contact">
+                            <div class="contact-name">
+                                <label for="name">NAME</label>
+                                <input type="text" id="name" placeholder="What can we call you?" name="name" required></input>
+                            </div>
+                        <div class="contact-email">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" placeholder="..so that we can reach you.." name="email" required>
+                            </div>
+                            <div class="contact-message">
+                                <label for="message">MESSAGE</label>
+                                <textarea id="message" rows="3" placeholder="Type your interesting questions!" name="message" required></textarea>
+                            </div>
+                            <div class="contact-submit">
+                                <button class="submit-button" onclick="resetForm()">
+                                    SEND MESSAGE
+                                </button>
+                                <p id="confirmation" hidden>Thanks for your message!</p>
+                            </div>
+                        </form>
+                    
+            
+<footer>
+    <p> © 2022 Jona Peh. All rights reserved.</p>
+</footer>
+</body>
+</html>
